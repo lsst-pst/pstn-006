@@ -1,0 +1,92 @@
+\section{Introduction}
+
+ Description of the performance scope of telescope and site subsystem and reference to the main telescope and site paper. Telescope and Site is responsable for the on axis image quality, the mirror throughput,  the pointing and the  delivery of the calibration hardware and the cadence of the survey.
+\begin{itemize}
+ \item  What is Rubin Observatory? 8.4m telescope in construction  that will deliver a "movie" of the sudden sky
+ \item  What are the T\&S subsystems and how  do they relate to the overall performance (the facility including isolation of the pier, the dome and the HVAC system, the TMA and the pointing and speed, the active optics, the mirrors, the hexapods, the EAS, the calibration, the coating plant,  the scheduler)
+ \item Presentation of the error budget terms
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Optical Quality} 
+In the section we will explain what will contribute to the good optical quality.\\
+The contributions of the optical quality are the vibrations residual, dome seing and the aberrations introduced  by the overall system (including the camera)
+
+\subsection{Vibrations}
+TMA jitter requirements\\
+Pier isolation requirements\\
+Other components vibration for instance the potential coupling between the M1M3 and the TMA. We will also use accelerometers and ComCam at its faster rate  to estimate the vibration of the telescope\\
+
+\subsection{Dome Seeing}
+We will have results for the dome seeing probes in the main dome. If there is a paper on environment awareness system, the details of the instruments  will not be described here (we will just reference). This will be limited to the telescope itself without LSST Cam and maybe before ComCam. This means that we will have to do the test  when we do the full night of observation testing with the M2 glass mirror and the M1M3 cell + surrogate  mirror. \\
+Temperature sensors  results. Look at the gradient in temperature across the telescope  and correlate this to the dome seeing probes. 
+
+\subsection{Optics}
+Describe M1M3 and its performance. This will include the mirror lab testing and the M3 optical testing in Chile with the IOTA system \\
+Describe M2 and its performance. Give a summary of the M2 testing done at harris  with optical feedback (reference to the SPIE paper)  \\
+Describe the hexapods \\ 
+
+\subsection{Active Optics System}
+Explain the active optics system purpose and reference the other papers for details. In particular, it will give a summary of the main components:
+\begin{itemize}
+\item Alignment System Controller. responsable to align the mirror using laser tracker
+\item Open-loop-Model
+\item Closed-loop feedback (Pre-processing, Wavefront Estimation Pipeline and Optical Feedback Controller)
+\end{itemize}
+
+\subsection{On Axis Optical quality}
+Describe the testing of the image quality on axis at different elevation and the method to build the look-up-table\\
+Give the final on axis image quality error and compare to the error budget\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Pointing}
+\subsection{TMA requirement verification}
+\subsubsection{Method}
+Detail the TMA requirement and how we verified them at the factory and in Chile. Use of laser trackers in the factory and use oof the star tracker in Chile due to laser tracker limitations. Put here the proposal that Chuck and I developed. 
+\subsubsection{Results}
+Results 
+
+\subsection{Pointing verification with the full system using ComCam}
+\subsubsection{Pointing Kernel description}
+\subsubsection{Test method}
+\subsubsection{Results and comparison with the error budget}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Throughput}
+\subsection{ Throughput requirement for T\&S}
+Give the table that can be found in LSE-60 and the flown down LTS.
+\subsection{M2 coating}
+\subsubsection{M2 coating preparation}
+This will describe the cleanliness of the level 3 floor while Rubin Observatory was a construction project. Include dust measurements leading to the coating, cleaning of the mirror...
+Also describe any other preparation relevant to the performance of the coating chamber
+\subsubsection{M2 coating Results}
+Results  include of course reflectivity curve, pinhole measurement and degradation of the reflectivity over time. For M2 we will have at least 1.5 years of regular measurements. 
+\subsection{M1M3 coating}
+\subsubsection{M1M3 coating preparation}
+This will describe the cleanliness of the level 3 floor while Rubin Observatory was a construction project. Include dust measurements leading to the coating, cleaning of the mirror...
+Also describe any other preparation relevant to the performance of the coating chamber
+\subsubsection{M1M3 coating Results}
+Results  include of course reflectivity curve, pinhole measurement and degradation of the reflectivity over time.  
+
+\subsection{Overall throughput results}
+The will show the combined result for M1M3 and M2 as well as the theoretical implication on m5. Bo will describe in his paper the full observatory results and its implication for m5 (combining telescope and camera as built performance)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Scheduler performance}
+In this section we will  give a brief summary of the scheduler
+\subsection{Algorithm and technical implementation}
+\subsection{Expected results}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Calibration}
+I need to think about how to present this part. The T\&S is responsible for the delivery of hardware so I was thinking of giving a brief summary of the AuxTel  image quality and pointing accuracy, the in dome flat screen uniformity and CBP performance. That means stopping the description before it becomes a SitCom activiity. I am open to any suggestions. 
+\subsection{Requirement description}
+\subsection{In dome Calibration}
+\subsection{Auxiliary Telescope Calibration}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions} 
+
